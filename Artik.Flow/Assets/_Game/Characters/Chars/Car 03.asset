@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58d9fe96cc36336409805933bd9c70e6, type: 3}
+  m_Name: Car 03
+  m_EditorClassIdentifier: 
+  id: 2
+  internalName: Tier_1/Tier 1-3
+  displayName: 
+  price: 150
+  menuTexture: {fileID: 2800000, guid: d76852a777b76ba47b317fadda5807e2, type: 3}
+  deadTexture: {fileID: 0}
+  promoStartDay: 0
+  promoStartMonth: 0
+  promoDaysLength: 0
+  unlockThreshold: 0
+  carPrefabName: Tier_1/Tier 1-3
+  shopCarResource: ShopCar 03
+  styleTexture: {fileID: 2800000, guid: ffa9eef5be91f53478f4cf3902fc7284, type: 3}
+  defenseTexture: {fileID: 2800000, guid: 802c7fc411430b64cb209c1aef40598b, type: 3}
+  weaponTexture: {fileID: 2800000, guid: 0a2baedb2346f1d479ae9ba7134d8f9c, type: 3}
+  damageShopBar: 3
+  healthShopBar: 2
+  weaponsIconsActive: 00000000
+  carName: Rocknrolla
+  descriptionKey: 
+  tierString: Drift.Tier1
+  iapProduct: {fileID: 11400000, guid: 5f57e9ccdb9f500418b6497deda11acf, type: 2}

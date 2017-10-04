@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0341038ac91a3754b9890019a58c936c, type: 3}
+  m_Name: GameConfiguration
+  m_EditorClassIdentifier: 
+  ARTIK_HEYZAP_ID: f12890a3baaffe96f7417c7cb922e0f2
+  gameScene: example
+  storeTarget: 0
+  FRENCH_PREMIUM_tryNBuy: 1
+  FRENCH_PREMIUM_tryNBuyId: 
+  GoogleLeaderboards:
+  - CgkImLDfp70HEAIQAQ
+  iOSLeaderboards:
+  - artikflow.ranking
+  playphoneLeaderboards:
+  - 11000
+  GoogleAchievements:
+  - CgkImLDfp70HEAIQAg
+  - CgkImLDfp70HEAIQAw
+  - CgkImLDfp70HEAIQBA
+  - CgkImLDfp70HEAIQBQ
+  - CgkImLDfp70HEAIQBg
+  iOSAchievements:
+  - artikflow.achievement1
+  - artikflow.achievement2
+  - artikflow.achievement3
+  - artikflow.achievement4
+  - artikflow.achievement5
+  playphoneAchievements:
+  - 12000
+  - 12001
+  - 12002
+  - 12003
+  - 12004
+  Android_StarUrl: https://play.google.com/store/apps/details?id=%
+  Playphone_StarUrl: psgn://getgames.info/?jump_to=gamedetails&id=16543
+  iOS_StarUrl: https://itunes.apple.com/app/id%
+  iOS_StoreId: 
+  referenceFonts:
+  - {fileID: 11417146, guid: ca40f265ef78dce4a8429e47aa223c2f, type: 2}
+  - {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+  - {fileID: 11437532, guid: fd577f4ed20485f459e69096112ab25a, type: 2}
+  bitmapFonts:
+  - {fileID: 11432800, guid: 96c5921f3e14b7b4bb4066f9a181292f, type: 2}
+  - {fileID: 11496884, guid: 029d16b4bcb6f8448972be64cc4e59bb, type: 2}
+  - {fileID: 114712225900156754, guid: fabf2bd388b15a2468ea808bbc78565f, type: 2}
+  dynamicFonts:
+  - {fileID: 11417146, guid: 7d1a143b073d73548bfe3897162eed54, type: 2}
+  - {fileID: 11437532, guid: 24dacb50b2e844e4b80717c4dd6e7682, type: 2}
+  - {fileID: 114654750987367830, guid: a6482b4b2a23b1b41bcace6238e5980d, type: 2}
+  products:
+  - {fileID: 11400000, guid: 0225ad48377b63348b1a6a65fc9c645a, type: 2}
+  - {fileID: 11400000, guid: 2792e18849a90c847ba064ba0fb61013, type: 2}
+  - {fileID: 11400000, guid: 162c4f112c7a7a846b9b56d040eeb955, type: 2}
+  - {fileID: 11400000, guid: 836f5102fc99cbe428d88ef617477f61, type: 2}
+  - {fileID: 11400000, guid: e40b3bbcb6ec8d048b2819f3083a71fe, type: 2}
+  - {fileID: 11400000, guid: 41fe23c389ca1db4aa215410e8b3a970, type: 2}
+  - {fileID: 11400000, guid: 686eea4d7022f5645b64b9058087ae30, type: 2}
+  forceLanguage: en
+  androidTrackingCode: 
+  iosTrackingCode: 
+  forceStoragePermission: 0
+  cleanOnApplicationPause: 0
+  cleanOnApplicationQuit: 1
+  charactersEnabled: 1
+  displayScoreIngame: 1
+  enableCoins: 1
+  displayCoinsIngame: 1
+  enableRevive: 1
+  useWhiteLabels: 0
+  icon: {fileID: 2800000, guid: 3df6f634767d92541b4edda8264bb501, type: 3}
+  gameLogoTexture: {fileID: 2800000, guid: 96e79d1dbf889c2468fec299ab368cd1, type: 3}
+  disablePlayerStatsAPI: 0
+  gameModes:
+  - {fileID: 114861556573547900, guid: 1dca28bf4951e8c478fccde2836a87be, type: 2}
+  moneyCheat: 0
+  characters:
+  - {fileID: 11400000, guid: ab1d95e6197c9ed4899252702923ee8a, type: 2}
+  - {fileID: 11400000, guid: c293b2b21c5cadb4a85b86c45c65cb65, type: 2}
+  - {fileID: 11400000, guid: 7b623441393ad5644b3209a8241fa64e, type: 2}
+  - {fileID: 11400000, guid: 7a0b4959fd67c554da5591aaea068286, type: 2}
+  - {fileID: 11400000, guid: 8da54e41d67540e4f81ede86bbb3de67, type: 2}
+  - {fileID: 11400000, guid: 1e68ca364327ac845b877b59f48c71de, type: 2}
+  - {fileID: 11400000, guid: 2719fd15864a96e41bdd95e7a2b32c32, type: 2}
+  - {fileID: 11400000, guid: b2ccfb76b163ba14a873918dd3cf5845, type: 2}
+  characterTier2Start: 101
+  characterTier3Start: 201
+  powerups:
+  - {fileID: 11400000, guid: 03b0e230bd0c6324391b377ac01ed88e, type: 2}
+  - {fileID: 11400000, guid: 1bec0c68987b6254bbdeaaadf6910df9, type: 2}
+  sharingText: 'I made a score of % in #*! #ArtikGames #android #iOS'
+  gemPackCount: 1000
+  gemStarterPackCount: 20
+  gemSuperPackCount: 0
+  IAPPromoStartDay: 16
+  IAPPromoStartMonth: 11
+  IAPPromoDaysLength: 5
+  IAPPromoGameToShow: 4
+  bannerAtBottom: 1
+  interstitialFrequency: 5
+  replacementScreens: []
+  replacementPopups: []
+  screenPopupAttachments: []
+  extraPopups: []
+  rouletteSliceCount: 8
+  rouletteSlices:
+  - probability: 0.02
+    possibleItems:
+    - {fileID: 11400000, guid: 0049032477fe03341b33ec4843f3d5db, type: 2}
+    itemProbabilities:
+    - 0.5
+  - probability: 0.02
+    possibleItems:
+    - {fileID: 11400000, guid: 796db0e91ae4dd64ba1e7b7295e545d6, type: 2}
+    itemProbabilities:
+    - 0.5
+  - probability: 0.02
+    possibleItems:
+    - {fileID: 11400000, guid: cba15ee48f4ae92429cc0ca2d5345d8a, type: 2}
+    itemProbabilities:
+    - 0.5
+  - probability: 0.02
+    possibleItems:
+    - {fileID: 11400000, guid: cba15ee48f4ae92429cc0ca2d5345d8a, type: 2}
+    - {fileID: 11400000, guid: 796db0e91ae4dd64ba1e7b7295e545d6, type: 2}
+    itemProbabilities:
+    - 0.91
+    - 0.11
+  - probability: 0.02
+    possibleItems:
+    - {fileID: 11400000, guid: 0049032477fe03341b33ec4843f3d5db, type: 2}
+    itemProbabilities:
+    - 0.5
+  - probability: 0.02
+    possibleItems:
+    - {fileID: 11400000, guid: 796db0e91ae4dd64ba1e7b7295e545d6, type: 2}
+    itemProbabilities:
+    - 0.5
+  - probability: 0.02
+    possibleItems:
+    - {fileID: 11400000, guid: 796db0e91ae4dd64ba1e7b7295e545d6, type: 2}
+    itemProbabilities:
+    - 0.5
+  - probability: 1
+    possibleItems:
+    - {fileID: 11400000, guid: 0049032477fe03341b33ec4843f3d5db, type: 2}
+    itemProbabilities:
+    - 0.5
+  fontOverrideProps: []
+  replaceDailyWithRoulette: 1
+  gemsToSpin: 30
+  timeForRewards: 03000000060000001e0000003c00000068010000
+  dailyPrize: 20
+  showTapToPlay: 1
+  scoresYPosition: -215
+  hiddenLogoEnabled: 1
+  Facebook_buy_Url: http://www.facebook.com/artikgames
+  Twitter_buy_Url: https://twitter.com/artikgames
+  Instagram_buy_Url: https://www.instagram.com/artik.games/
+  characterHeight: 117
+  shopIcon: {fileID: 2800000, guid: 118d406703001434e9812d13ae1b595a, type: 3}
+  coinsToRevive: 20
+  canCancel: 1
+  timeToRevive: 9
+  Android_MoreURL: https://play.google.com/store/search?q=pub:Artik%20Games
+  Playphone_MoreURL: psgn://getgames.info/?jump_to=gamesbydeveloper&id=16543
+  iOS_MoreURL: https://itunes.apple.com/us/developer/niels-benjamins/id1101859183
+  videoReward: 20
+  videoAdFrequency: 2
+  disableRatePopup: 0
+  gameToShowRate: 5
+  gameAudio: {fileID: 0}
+  notificationFirstGift: 0
+  notificationSecondGift: 200
+  notificationThirdGift: 1000
+  scoreForBronze: 2147483644
+  scoreForSilver: 2147483644
+  scoreForGold: 2147483644
+  bronzeCoins: 0
+  silverCoins: 0
+  goldCoins: 0
+  noMedalVideoReward: 0

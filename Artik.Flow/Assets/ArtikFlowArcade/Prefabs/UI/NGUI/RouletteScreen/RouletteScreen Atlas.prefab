@@ -1,0 +1,254 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1149350344766642}
+  m_IsPrefabParent: 1
+--- !u!1 &1149350344766642
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4226126027494828}
+  - component: {fileID: 114850451271981276}
+  m_Layer: 0
+  m_Name: RouletteScreen Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4226126027494828
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1149350344766642}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114850451271981276
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1149350344766642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: d1e5d9164ec2a9f498d34308469b94ee, type: 2}
+  mSprites:
+  - name: BackButton
+    x: 0
+    y: 234
+    width: 196
+    height: 218
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 12
+    paddingTop: 1
+    paddingBottom: 1
+  - name: ButtonBlue
+    x: 238
+    y: 522
+    width: 140
+    height: 168
+    borderLeft: 37
+    borderRight: 64
+    borderTop: 47
+    borderBottom: 79
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ButtonOrange
+    x: 1159
+    y: 1162
+    width: 240
+    height: 288
+    borderLeft: 67
+    borderRight: 126
+    borderTop: 102
+    borderBottom: 134
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ButtonWatchAd
+    x: 1465
+    y: 1254
+    width: 280
+    height: 240
+    borderLeft: 171
+    borderRight: 94
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GameOutOfMovesContainer
+    x: 913
+    y: 1154
+    width: 240
+    height: 296
+    borderLeft: 65
+    borderRight: 116
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 5
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GemRewardIcon
+    x: 184
+    y: 85
+    width: 181
+    height: 143
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 5
+    paddingTop: 3
+    paddingBottom: 4
+  - name: IconRouletteBackground
+    x: 1751
+    y: 1239
+    width: 252
+    height: 255
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 0
+    paddingBottom: 1
+  - name: IconRouletteShine
+    x: 0
+    y: 458
+    width: 232
+    height: 232
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 12
+    paddingTop: 12
+    paddingBottom: 12
+  - name: IconRouletteSmall
+    x: 202
+    y: 260
+    width: 168
+    height: 192
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 42
+    paddingRight: 46
+    paddingTop: 27
+    paddingBottom: 37
+  - name: PopUpItemHolder
+    x: 0
+    y: 696
+    width: 392
+    height: 439
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 4
+    paddingTop: 9
+    paddingBottom: 9
+  - name: PopUpWindowHolder
+    x: 1465
+    y: 1162
+    width: 60
+    height: 86
+    borderLeft: 25
+    borderRight: 25
+    borderTop: 25
+    borderBottom: 50
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: RouletteAddDetail
+    x: 0
+    y: 1141
+    width: 907
+    height: 907
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 47
+    paddingRight: 46
+    paddingTop: 47
+    paddingBottom: 46
+  - name: RouletteArrow
+    x: 0
+    y: 71
+    width: 178
+    height: 157
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: RouletteBG
+    x: 913
+    y: 1456
+    width: 546
+    height: 592
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 87
+    paddingRight: 87
+    paddingTop: 100
+    paddingBottom: 54
+  - name: RouletteMain
+    x: 1465
+    y: 1500
+    width: 548
+    height: 548
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 86
+    paddingRight: 86
+    paddingTop: 99
+    paddingBottom: 99
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []

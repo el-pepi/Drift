@@ -1,0 +1,120 @@
+fileFormatVersion: 2
+guid: a2206bd7fa13a3947ab37a5f8dc8d7dc
+timeCreated: 1487169091
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 30w 35r LP
+    100002: 30w 40r LP
+    100004: 30w 45r LP
+    100006: 30w 50r LP
+    100008: 30w 55r LP
+    100010: 30w 60r LP
+    100012: //RootNode
+    100014: Transition 20 30 LP
+    100016: Transition 30 40 LP
+    400000: 30w 35r LP
+    400002: 30w 40r LP
+    400004: 30w 45r LP
+    400006: 30w 50r LP
+    400008: 30w 55r LP
+    400010: 30w 60r LP
+    400012: //RootNode
+    400014: Transition 20 30 LP
+    400016: Transition 30 40 LP
+    2300000: 30w 35r LP
+    2300002: 30w 40r LP
+    2300004: 30w 45r LP
+    2300006: 30w 50r LP
+    2300008: 30w 55r LP
+    2300010: 30w 60r LP
+    2300012: Transition 20 30 LP
+    2300014: Transition 30 40 LP
+    3300000: 30w 35r LP
+    3300002: 30w 40r LP
+    3300004: 30w 45r LP
+    3300006: 30w 50r LP
+    3300008: 30w 55r LP
+    3300010: 30w 60r LP
+    3300012: Transition 20 30 LP
+    3300014: Transition 30 40 LP
+    4300000: 30w 35r LP
+    4300002: 30w 40r LP
+    4300004: 30w 45r LP
+    4300006: 30w 50r LP
+    4300008: 30w 55r LP
+    4300010: 30w 60r LP
+    4300012: Transition 20 30 LP
+    4300014: Transition 30 40 LP
+    7400000: Take 001
+    9500000: //RootNode
+    11400000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 2
+    tangentImportMode: 2
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

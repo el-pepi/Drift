@@ -1,0 +1,42 @@
+# VascoGames SDK - Internal house ad system.
+
+## [UnReleased] 
+
+## [1.0.4] - 2015-10-28 
+#### Changed
+- In AdsHandler.cs in the init_ads() method between at the #if UNITY_IOS part added UH.initn(); so that UnityAds gets instantiated for iOS.
+
+## [1.0.3] - 2015-10-22
+### Changed
+- In vg_interstitial.cs changed the houseadslink and houseadslinkbanner for iOS to "http://madsiosnew.vascogames.com";
+
+## [1.0.2] - 2015-10-06
+### Changed
+- This changelog to a more standard format, for tracking the logs.
+- AdsHandler.cs to reflect latest fixes for admob issues.
+- ShowAdsOnLoad.cs so that when you don't have internet, Unityad won't keep trying to load an ad. 
+This can give problems when internet comes back and will load a ad in the middle of gameplay.
+- vg_interstitial.cs to reflect the removal of Facebook.
+
+### Removed
+- AudienceNetwork for IOS, this is needed to make cloudbuild work.
+- Facebook for IOS, this is needed to make cloudbuild work.
+- fb_interstitial.cs, because we removed fb.
+- On the AdsHandler prefab removed the fb_interstitial componnet.
+
+### Added
+- AdmobPostprocessor, needed to patch admob for IOS automaticly so it works for cloudbuild.
+
+## [1.0.1] - 2015-09-28
+### Changed
+- Check if admob is ready to show ad, if not don't show an ad. 
+
+### Removed
+- UniWebView, has security problems and isn't used at the moment.
+- Kolmich, was used for debugging only.
+
+### Updated
+- InMobi Android from 4.5.5 to 4.5.6.
+
+### Cleaned
+- Some of the folders.

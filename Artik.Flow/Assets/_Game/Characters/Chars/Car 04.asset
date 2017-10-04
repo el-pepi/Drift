@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58d9fe96cc36336409805933bd9c70e6, type: 3}
+  m_Name: Car 04
+  m_EditorClassIdentifier: 
+  id: 3
+  internalName: Tier_1/Tier 1-4
+  displayName: 
+  price: 150
+  menuTexture: {fileID: 2800000, guid: 4a4ac855c9c4b714a87594c7a0e3064b, type: 3}
+  deadTexture: {fileID: 0}
+  promoStartDay: 0
+  promoStartMonth: 0
+  promoDaysLength: 0
+  unlockThreshold: 0
+  carPrefabName: Tier_1/Tier 1-4
+  shopCarResource: ShopCar 04
+  styleTexture: {fileID: 2800000, guid: ffa9eef5be91f53478f4cf3902fc7284, type: 3}
+  defenseTexture: {fileID: 2800000, guid: 7fd4635f507119e4893a3ecb89b8f42c, type: 3}
+  weaponTexture: {fileID: 2800000, guid: f5a1fdae43511a64eaceabffa730b3d9, type: 3}
+  damageShopBar: 2
+  healthShopBar: 4
+  weaponsIconsActive: 0000000002000000
+  carName: Blossom
+  descriptionKey: 
+  tierString: Drift.Tier1
+  iapProduct: {fileID: 11400000, guid: 5f57e9ccdb9f500418b6497deda11acf, type: 2}

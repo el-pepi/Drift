@@ -1,0 +1,1120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0341038ac91a3754b9890019a58c936c, type: 3}
+  m_Name: GameConfiguration
+  m_EditorClassIdentifier: 
+  ARTIK_HEYZAP_ID: f12890a3baaffe96f7417c7cb922e0f2
+  gameScene: main
+  storeTarget: 0
+  FRENCH_PREMIUM_tryNBuy: 0
+  FRENCH_PREMIUM_tryNBuyId: 
+  GoogleLeaderboards:
+  - CgkImLDfp70HEAIQAQ
+  iOSLeaderboards:
+  - artikflow.ranking
+  playphoneLeaderboards:
+  - 11000
+  GoogleAchievements:
+  - CgkImLDfp70HEAIQAg
+  - CgkImLDfp70HEAIQAw
+  - CgkImLDfp70HEAIQBA
+  - CgkImLDfp70HEAIQBQ
+  - CgkImLDfp70HEAIQBg
+  iOSAchievements:
+  - artikflow.achievement1
+  - artikflow.achievement2
+  - artikflow.achievement3
+  - artikflow.achievement4
+  - artikflow.achievement5
+  playphoneAchievements:
+  - 12000
+  - 12001
+  - 12002
+  - 12003
+  - 12004
+  Android_StarUrl: https://play.google.com/store/apps/details?id=%
+  Playphone_StarUrl: psgn://getgames.info/?jump_to=gamedetails&id=16543
+  iOS_StarUrl: https://itunes.apple.com/app/id%
+  iOS_StoreId: 
+  referenceFonts:
+  - {fileID: 11417146, guid: ca40f265ef78dce4a8429e47aa223c2f, type: 2}
+  - {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+  bitmapFonts:
+  - {fileID: 114000012946101558, guid: 06fca6c697cb66f44af83da5c89cc812, type: 2}
+  - {fileID: 11496884, guid: 029d16b4bcb6f8448972be64cc4e59bb, type: 2}
+  dynamicFonts:
+  - {fileID: 11417146, guid: 7d1a143b073d73548bfe3897162eed54, type: 2}
+  - {fileID: 11437532, guid: 24dacb50b2e844e4b80717c4dd6e7682, type: 2}
+  products:
+  - {fileID: 11400000, guid: 5f57e9ccdb9f500418b6497deda11acf, type: 2}
+  - {fileID: 11400000, guid: 1bfc117ee7174b84eaf78b30a4c4e60b, type: 2}
+  - {fileID: 11400000, guid: 06861e3d21da96f4eacfa91dff6d2946, type: 2}
+  - {fileID: 11400000, guid: 2740b9a690b5a5f4d9b947e83f5b9905, type: 2}
+  - {fileID: 11400000, guid: b775eae9e499f584bbc1aa6905a655c0, type: 2}
+  forceLanguage: en
+  androidTrackingCode: 
+  iosTrackingCode: 
+  forceStoragePermission: 0
+  cleanOnApplicationPause: 0
+  cleanOnApplicationQuit: 0
+  charactersEnabled: 1
+  displayScoreIngame: 0
+  enableCoins: 1
+  displayCoinsIngame: 0
+  enableRevive: 1
+  useWhiteLabels: 1
+  icon: {fileID: 2800000, guid: 5ef536b868918fb43a052179d60f30ec, type: 3}
+  gameLogoTexture: {fileID: 2800000, guid: ae6c30d8922072b44ba534a005931b72, type: 3}
+  disablePlayerStatsAPI: 0
+  gameModes: []
+  moneyCheat: 0
+  characters:
+  - {fileID: 11400000, guid: 954a1b36a26762a4bb069b8d1fc120f2, type: 2}
+  - {fileID: 11400000, guid: 3fa0a2decd9351c41af32bc0ff6b4ea1, type: 2}
+  - {fileID: 11400000, guid: 82ed009333bec464686648f155979b83, type: 2}
+  - {fileID: 11400000, guid: f6bbe785f12b9814f911dd90219d8f55, type: 2}
+  - {fileID: 11400000, guid: 2f3d545358902fa448efa9bf2a1bebb6, type: 2}
+  - {fileID: 11400000, guid: f4ab5c69ff8f23449b1dc5ef56499798, type: 2}
+  - {fileID: 11400000, guid: 2247a2b6565995d4f8c94933890413a1, type: 2}
+  - {fileID: 11400000, guid: c5593e4355617cb44b1369094f3872ce, type: 2}
+  - {fileID: 11400000, guid: 10c81b805f497ee49ade68210473e48f, type: 2}
+  - {fileID: 11400000, guid: 5e24ecdad84d1f946ae7af68028bd878, type: 2}
+  - {fileID: 11400000, guid: 62b57442da3a23248bec40146c2c3d56, type: 2}
+  - {fileID: 11400000, guid: 9aeccb598289fd64dad40fffb25822f9, type: 2}
+  - {fileID: 11400000, guid: 0077787bb776c7e4d95456cb4167087f, type: 2}
+  - {fileID: 11400000, guid: e55fde0027f9b66419d5d3572f135b04, type: 2}
+  - {fileID: 11400000, guid: b41786d451cf32740810ce8aa4c894c4, type: 2}
+  - {fileID: 11400000, guid: d163ee7fadc1b86468a47d61d4d9c2a1, type: 2}
+  - {fileID: 11400000, guid: 69a331c10ae2de140b30b1d084902653, type: 2}
+  - {fileID: 11400000, guid: b08534374120c154188d1fc02ef2f1a4, type: 2}
+  - {fileID: 11400000, guid: b4aca6c37e70fe944ab448df28b5b689, type: 2}
+  - {fileID: 11400000, guid: ee1bf37d1f37a624ca6b768983ecbe18, type: 2}
+  - {fileID: 11400000, guid: 11c1c2aa33aef4d41a9490fa136b393f, type: 2}
+  - {fileID: 11400000, guid: 102b9abc14b28c44386a3d66e313789e, type: 2}
+  - {fileID: 11400000, guid: d926f13f91a6571469571071348f7da9, type: 2}
+  - {fileID: 11400000, guid: 6c1a5396805809f44ba0096201e15ec3, type: 2}
+  - {fileID: 11400000, guid: 6d1cd91a3b4544541a6735c4fb49feeb, type: 2}
+  - {fileID: 11400000, guid: 81c4bd729a63e72428eb3300add3b9ba, type: 2}
+  - {fileID: 11400000, guid: b0f7abc495f570c48814c0a89fbd4cac, type: 2}
+  - {fileID: 11400000, guid: af750c835fe6de7478c8ac5a5430b3cc, type: 2}
+  - {fileID: 11400000, guid: f870f03102d49cc40a8d7d8c40a54f62, type: 2}
+  - {fileID: 11400000, guid: 0ec369ee0c4270541b004315f8fff6e9, type: 2}
+  - {fileID: 11400000, guid: d2b800185d708104eae097247b832078, type: 2}
+  - {fileID: 11400000, guid: bde2e3aaef63b494294bc77849906c88, type: 2}
+  - {fileID: 11400000, guid: b653e4516553e294c8abc39eb688295c, type: 2}
+  - {fileID: 11400000, guid: c5079525f72411449a3b55221a3b7bbf, type: 2}
+  characterTier2Start: 101
+  characterTier3Start: 201
+  powerups:
+  - {fileID: 11400000, guid: dba7615c7c75f834e9d09579eaf795f5, type: 2}
+  - {fileID: 11400000, guid: 61d92f19a7273e54bad19b734b581970, type: 2}
+  - {fileID: 11400000, guid: fa3305345d467a34a97eab8eeae026f4, type: 2}
+  - {fileID: 11400000, guid: dab920a76ca31b0478ac9212261a2c36, type: 2}
+  - {fileID: 11400000, guid: 28f4bac0ac1a0ec4ead930e5f0afcf07, type: 2}
+  - {fileID: 11400000, guid: 837faf2f40ffb3b448d9015907a01b35, type: 2}
+  - {fileID: 11400000, guid: 16f6caf4f993a104790bb8614dbbab5f, type: 2}
+  - {fileID: 11400000, guid: d36249cd8213bc6438b8ed4a9caa1ea0, type: 2}
+  sharingText: 'I made a score of % in ! #ArtikGames #android'
+  gemPackCount: 500
+  gemStarterPackCount: 1000
+  gemSuperPackCount: 2500
+  IAPPromoStartDay: 0
+  IAPPromoStartMonth: 0
+  IAPPromoDaysLength: 0
+  IAPPromoGameToShow: 4
+  bannerAtBottom: 1
+  interstitialFrequency: 5
+  replacementScreens:
+  - {fileID: 114957630101738346, guid: 65f70d13312e7d34db1bb5f70da4f961, type: 2}
+  - {fileID: 114224574274527530, guid: 41ac975f85b0fa84c8f80ca581de794f, type: 2}
+  - {fileID: 114589699302958288, guid: 331ccaf0ab864aa46aaae32065f35a6a, type: 2}
+  - {fileID: 114924708099684016, guid: 32e6930f91342914da820dbb762ad175, type: 2}
+  - {fileID: 114916338234892640, guid: 147de61ae70e10d4887826dbc2708a99, type: 2}
+  - {fileID: 114748398757982458, guid: b61d1eaacef8bdd4cbd0b626467a381b, type: 2}
+  replacementPopups:
+  - {fileID: 114320853733671696, guid: 3ad55789a3633184aa743df2f90caeee, type: 2}
+  - {fileID: 114531052681164798, guid: 9b2b9094a8870ea428056bdb5668e981, type: 2}
+  - {fileID: 114016247128078560, guid: 67bd12dab214bfb439e595105687cc05, type: 2}
+  - {fileID: 114382441304476354, guid: 7b23aeab710e41e4391a0252589baff3, type: 2}
+  - {fileID: 114089480915338480, guid: 31a306c3fad681340a9a536e303b506d, type: 2}
+  - {fileID: 114106224879431976, guid: 6fb4b8df507f89e488685d7f6193f047, type: 2}
+  - {fileID: 114677154115314260, guid: 10ce4322e31ead44784d5e8d712882c7, type: 2}
+  screenPopupAttachments: []
+  extraPopups:
+  - {fileID: 114724443221648866, guid: c52175fbd3c18e04cacadf6bf3348e14, type: 2}
+  rouletteSliceCount: 8
+  rouletteSlices:
+  - probability: 0.452
+    possibleItems:
+    - {fileID: 11400000, guid: 40a27fd25bf36ea479283d262c7eff37, type: 2}
+    itemProbabilities:
+    - 0.5
+  - probability: 0.452
+    possibleItems:
+    - {fileID: 11400000, guid: 40a27fd25bf36ea479283d262c7eff37, type: 2}
+    itemProbabilities:
+    - 0.5
+  - probability: 0.605
+    possibleItems:
+    - {fileID: 11400000, guid: 8cd06dd3e04dc9340805a40d45114045, type: 2}
+    itemProbabilities:
+    - 0.5
+  - probability: 0.605
+    possibleItems:
+    - {fileID: 11400000, guid: 8cd06dd3e04dc9340805a40d45114045, type: 2}
+    itemProbabilities:
+    - 0.5
+  - probability: 0.388
+    possibleItems:
+    - {fileID: 11400000, guid: a029b96eb3300354aa40d514a258a483, type: 2}
+    itemProbabilities:
+    - 0.5
+  - probability: 0.388
+    possibleItems:
+    - {fileID: 11400000, guid: a029b96eb3300354aa40d514a258a483, type: 2}
+    itemProbabilities:
+    - 0.5
+  - probability: 0.258
+    possibleItems:
+    - {fileID: 11400000, guid: d7d968df8ed7cfd4ca65d8ca54233021, type: 2}
+    itemProbabilities:
+    - 0.5
+  - probability: 0.081
+    possibleItems:
+    - {fileID: 11400000, guid: 85d2f0c3a69b03848b61b9c92f46941b, type: 2}
+    itemProbabilities:
+    - 0.5
+  fontOverrideProps:
+  - path: HiddenLogo.UI.Label_Join
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0, g: 0, b: 0, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 70
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_HalfPack.Background.StarsBack.Label_Before
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0.4156863, g: 0.4156863, b: 0.4156863, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 21
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_HalfPack.Background.StarsBack.Label_Now
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 1, g: 0.3137255, b: 0.6666667, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 53
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_HalfPack.Background.StarsBack.Label_Price
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0.20000002, g: 0.20000002, b: 0.20000002, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 71
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_HalfPack.Background.StarsBack.Label_OfferEnd
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0.20000002, g: 0.20000002, b: 0.20000002, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 26
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_HalfPack.Label_Pack
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 1, g: 0.3137255, b: 0.6666667, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 41
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_HalfPack.Label_Title
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 1, g: 1, b: 1, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 50
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_HalfPack.Button_Submit.Label
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 1, g: 1, b: 1, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 33
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_HalfPack.SubPopup.BackBox.Label_Title
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 1, g: 0.3137255, b: 0.6666667, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 32
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_HalfPack.SubPopup.BackBox.Label_Desc
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0.14901961, g: 0.14901961, b: 0.14901961, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 22
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_Share.Label_Title
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 1, g: 0.29803923, b: 0.67058825, a: 1}
+    overrideEffect: 0
+    newEffect: 1
+    overrideFontSize: 0
+    newFontSize: 50
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_Share.Label_Desc1
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0, g: 0, b: 0, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 50
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_Share.Label_Hashtag
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 1, g: 1, b: 1, a: 1}
+    overrideEffect: 0
+    newEffect: 3
+    overrideFontSize: 0
+    newFontSize: 59
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_Share.Label_Hashtag.Label_HashtagShadow
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0, g: 0, b: 0, a: 1}
+    overrideEffect: 0
+    newEffect: 3
+    overrideFontSize: 0
+    newFontSize: 59
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_Share.Label_Desc2
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0, g: 0, b: 0, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 50
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_Share.Button_Share.Label_Share
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 1, g: 1, b: 1, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 50
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_IAP.Row_SuperPack.Button_SuperPack.Label_Title
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 1, g: 1, b: 1, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 37
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_IAP.Row_SuperPack.Button_SuperPack.Label_Percentage
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0.7803922, g: 0, b: 0.18823531, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 46
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_IAP.Row_SuperPack.Button_SuperPack.Label_Details
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0.36862746, g: 0.17254902, b: 0.98823535, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 27
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_IAP.Row_SuperPack.Button_SuperPack.Label_Price
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0.14901961, g: 0.14901961, b: 0.14901961, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 62
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_IAP.Row_IAPs.Button_RemoveAds.Label_Details
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0.36862746, g: 0.17254902, b: 0.98823535, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 37
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_IAP.Row_IAPs.Button_RemoveAds.Label_Price
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0.14901961, g: 0.14901961, b: 0.14901961, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 48
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_IAP.Row_IAPs.Button_Gems.Label_Details
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0.36862746, g: 0.17254902, b: 0.98823535, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 37
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_IAP.Row_IAPs.Button_Gems.Label_Price
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0.14901961, g: 0.14901961, b: 0.14901961, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 48
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_IAP.Row_IAPs.Button_Characters.Label_Details
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0.36862746, g: 0.17254902, b: 0.98823535, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 37
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_IAP.Row_IAPs.Button_Characters.Label_Price
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0.14901961, g: 0.14901961, b: 0.14901961, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 48
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_IAP.Row_IAPs.Button_Duplicate.Label_Details
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0.36862746, g: 0.17254902, b: 0.98823535, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 37
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_IAP.Row_IAPs.Button_Duplicate.Label_Price
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0.14901961, g: 0.14901961, b: 0.14901961, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 48
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_IAP.Row_Restore.Button_Restore.Label_Details
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0.36862746, g: 0.17254902, b: 0.98823535, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 37
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_IAP.Row_Notice.Label_Notice
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 1, g: 1, b: 1, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 30
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_NeedGems.Row_Back.Label_Notice
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 1, g: 1, b: 1, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 50
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_NeedGems.Row_IAPs.Button_Gems.Label_Details
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0.36862746, g: 0.17254902, b: 0.98823535, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 37
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_NeedGems.Row_IAPs.Button_Gems.Label_Price
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0.14901961, g: 0.14901961, b: 0.14901961, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 48
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_Powerups.Label_Title
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0.14901961, g: 0.14901961, b: 0.14901961, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 45
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_Powerups.Grid.Template.Label_Count
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0.18823531, g: 0.18823531, b: 0.18823531, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 34
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_Powerups.SubPopup.Label_PowerTitle
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0.14901961, g: 0.14901961, b: 0.14901961, a: 0}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 45
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_Powerups.SubPopup.Label_PowerDesc
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0.14901961, g: 0.14901961, b: 0.14901961, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 30
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_Powerups.SubPopup.Grid.Option1.Label_Count
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0.14901961, g: 0.14901961, b: 0.14901961, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 29
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_Powerups.SubPopup.Grid.Option1.Button_Buy.Label_Price
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 1, g: 1, b: 1, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 30
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_Powerups.SubPopup.Grid.Option2.Label_Count
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0.14901961, g: 0.14901961, b: 0.14901961, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 29
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_Powerups.SubPopup.Grid.Option2.Button_Buy.Label_Price
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 1, g: 1, b: 1, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 30
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_Powerups.SubPopup.Grid.OptionVideo.Label_Count
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0.14901961, g: 0.14901961, b: 0.14901961, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 29
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_Powerups.SubPopup.Grid.OptionVideo.Button_Buy.Label_Price
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 1, g: 1, b: 1, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 30
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_Rate.Label_RateAsk1
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 1, g: 0.3137255, b: 0.6666667, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 32
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_Rate.Label_RateAsk2
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0.14901961, g: 0.14901961, b: 0.14901961, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 45
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_Rate.Label_RateAsk3
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0.14901961, g: 0.14901961, b: 0.14901961, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 30
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_Rate.Button_Submit.Label
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 1, g: 1, b: 1, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 33
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_Revive.Label_Timer
+    overrideFont: 1
+    newFont: {fileID: 11417146, guid: ca40f265ef78dce4a8429e47aa223c2f, type: 2}
+    overrideColor: 1
+    newColor: {r: 1, g: 1, b: 1, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 1
+    newFontSize: 146
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_Revive.Label_Revive
+    overrideFont: 1
+    newFont: {fileID: 11417146, guid: ca40f265ef78dce4a8429e47aa223c2f, type: 2}
+    overrideColor: 1
+    newColor: {r: 1, g: 1, b: 1, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 1
+    newFontSize: 51
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_Revive.Button_Coins.Label
+    overrideFont: 1
+    newFont: {fileID: 11417146, guid: ca40f265ef78dce4a8429e47aa223c2f, type: 2}
+    overrideColor: 1
+    newColor: {r: 0.20392159, g: 0.9333334, b: 1, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 1
+    newFontSize: 60
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.Popups.Popup_Revive.Button_Video.Label
+    overrideFont: 1
+    newFont: {fileID: 11417146, guid: ca40f265ef78dce4a8429e47aa223c2f, type: 2}
+    overrideColor: 1
+    newColor: {r: 0.9921569, g: 0.9215687, b: 0.21176472, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 1
+    newFontSize: 49
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.StartScreen.TryNBuyPaywall.Label_Desc1
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0, g: 0, b: 0, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 28
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.StartScreen.TryNBuyPaywall.Label_Name
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0, g: 0, b: 0, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 45
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.StartScreen.TryNBuyPaywall.Label_Desc2
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0, g: 0, b: 0, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 28
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.StartScreen.PlayHint.Label_Tap
+    overrideFont: 1
+    newFont: {fileID: 11417146, guid: ca40f265ef78dce4a8429e47aa223c2f, type: 2}
+    overrideColor: 1
+    newColor: {r: 1, g: 0.39215687, b: 0.34901962, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 1
+    newFontSize: 70
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.StartScreen.Scores.Label_Best
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0.14901961, g: 0.14901961, b: 0.14901961, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 44
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.StartScreen.Scores.Label_Plays
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0.14901961, g: 0.14901961, b: 0.14901961, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 37
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.StartScreen.Daily.Label_Daily
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0.14901961, g: 0.14901961, b: 0.14901961, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 33
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.StartScreen.Daily_Secondary.Label_Daily
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0.14901961, g: 0.14901961, b: 0.14901961, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 27
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.StartScreen.StarterPack.Label_Starter
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0.14901961, g: 0.14901961, b: 0.14901961, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 33
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.FlowButtons.Grid.1 Button_TryNBuy.BuyHint.Label_Tap
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 1, g: 1, b: 1, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 46
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.FlowButtons.Grid.3 Button_TryNBuySMS.Label
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 1, g: 1, b: 1, a: 1}
+    overrideEffect: 0
+    newEffect: 3
+    overrideFontSize: 0
+    newFontSize: 45
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.FlowButtons.Label_Version
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0, g: 0, b: 0, a: 1}
+    overrideEffect: 0
+    newEffect: 2
+    overrideFontSize: 0
+    newFontSize: 35
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.ShopScreen.Top.Coins.Label
+    overrideFont: 0
+    newFont: {fileID: 11417146, guid: ca40f265ef78dce4a8429e47aa223c2f, type: 2}
+    overrideColor: 0
+    newColor: {r: 1, g: 1, b: 1, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 60
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.ShopScreen.Top.Label_Shop
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 1, g: 1, b: 1, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 70
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.ShopScreen.Scroller.Label_Count
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 1, g: 1, b: 1, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 35
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.ShopScreen.Scroller.Grid.Template.Price.Label
+    overrideFont: 0
+    newFont: {fileID: 11417146, guid: ca40f265ef78dce4a8429e47aa223c2f, type: 2}
+    overrideColor: 0
+    newColor: {r: 1, g: 1, b: 1, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 36
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.ShopScreen.Scroller.Button_Duplicate.Label_Details
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0.36862746, g: 0.17254902, b: 0.98823535, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 37
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.ShopScreen.Scroller.Button_Duplicate.Label_Price
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0.14901961, g: 0.14901961, b: 0.14901961, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 48
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.GameplayScreen.Score.Label_Score
+    overrideFont: 0
+    newFont: {fileID: 114000014097802768, guid: 28dd493bf61ba0245b6ba0b8e4aa42d1,
+      type: 2}
+    overrideColor: 0
+    newColor: {r: 0, g: 0, b: 0, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 140
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.GameplayScreen.Score.Label_Best
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 0, g: 0, b: 0, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 34
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.GameplayScreen.Coins.Label
+    overrideFont: 0
+    newFont: {fileID: 11417146, guid: ca40f265ef78dce4a8429e47aa223c2f, type: 2}
+    overrideColor: 0
+    newColor: {r: 0.3921569, g: 0.82745105, b: 0.9921569, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 60
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.LostScreen.Button_VideoAd.Label_Coins
+    overrideFont: 1
+    newFont: {fileID: 11417146, guid: ca40f265ef78dce4a8429e47aa223c2f, type: 2}
+    overrideColor: 0
+    newColor: {r: 1, g: 1, b: 1, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 1
+    newFontSize: 60
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.LostScreen.Scoreboard.Label_Score
+    overrideFont: 1
+    newFont: {fileID: 11417146, guid: ca40f265ef78dce4a8429e47aa223c2f, type: 2}
+    overrideColor: 1
+    newColor: {r: 1, g: 0, b: 0.34901962, a: 1}
+    overrideEffect: 1
+    newEffect: 0
+    overrideFontSize: 1
+    newFontSize: 65
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.LostScreen.Scoreboard.Label_Best
+    overrideFont: 1
+    newFont: {fileID: 11417146, guid: ca40f265ef78dce4a8429e47aa223c2f, type: 2}
+    overrideColor: 1
+    newColor: {r: 1, g: 0.90588236, b: 0.3882353, a: 1}
+    overrideEffect: 1
+    newEffect: 0
+    overrideFontSize: 1
+    newFontSize: 65
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.LostScreen.Scoreboard.Label_ScoreNum
+    overrideFont: 1
+    newFont: {fileID: 11417146, guid: ca40f265ef78dce4a8429e47aa223c2f, type: 2}
+    overrideColor: 1
+    newColor: {r: 1, g: 0, b: 0.34901962, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 1
+    newFontSize: 80
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.LostScreen.Scoreboard.Label_BestNum
+    overrideFont: 1
+    newFont: {fileID: 11417146, guid: ca40f265ef78dce4a8429e47aa223c2f, type: 2}
+    overrideColor: 1
+    newColor: {r: 1, g: 0.90588236, b: 0.3882353, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 1
+    newFontSize: 80
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.LostScreen.Scoreboard.Label_New
+    overrideFont: 1
+    newFont: {fileID: 11417146, guid: ca40f265ef78dce4a8429e47aa223c2f, type: 2}
+    overrideColor: 1
+    newColor: {r: 0.16470589, g: 0.97647065, b: 0.058823533, a: 1}
+    overrideEffect: 1
+    newEffect: 0
+    overrideFontSize: 1
+    newFontSize: 52
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.DailyScreen.TopPanel.Label_Tap
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 1, g: 1, b: 1, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 50
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.RewardNotification.TopPanel.Label_Earned
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 1, g: 1, b: 1, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 44
+    overrideSpacingX: 0
+    newSpacingX: 0
+  - path: UI.RewardNotification.TopPanel.Label_Gems
+    overrideFont: 0
+    newFont: {fileID: 11437532, guid: 3d4e937a6e072574bb23d463fb6daf20, type: 2}
+    overrideColor: 0
+    newColor: {r: 1, g: 1, b: 1, a: 1}
+    overrideEffect: 0
+    newEffect: 0
+    overrideFontSize: 0
+    newFontSize: 78
+    overrideSpacingX: 0
+    newSpacingX: 0
+  replaceDailyWithRoulette: 1
+  gemsToSpin: 30
+  timeForRewards: 68010000
+  dailyPrize: 20
+  showTapToPlay: 1
+  scoresYPosition: 99999
+  hiddenLogoEnabled: 1
+  Facebook_buy_Url: http://www.facebook.com/artikgames
+  Twitter_buy_Url: https://twitter.com/artikgames
+  Instagram_buy_Url: https://www.instagram.com/artik.games/
+  characterHeight: 117
+  shopIcon: {fileID: 2800000, guid: e5a95459839fc164fb862c19ba4c32f5, type: 3}
+  coinsToRevive: 20
+  canCancel: 1
+  timeToRevive: 9
+  Android_MoreURL: https://play.google.com/store/search?q=pub:Artik%20Games
+  Playphone_MoreURL: psgn://getgames.info/?jump_to=gamesbydeveloper&id=16543
+  iOS_MoreURL: https://itunes.apple.com/us/developer/niels-benjamins/id1101859183
+  videoReward: 20
+  videoAdFrequency: 2
+  disableRatePopup: 0
+  gameToShowRate: 5
+  gameAudio: {fileID: 0}
+  notificationFirstGift: 0
+  notificationSecondGift: 200
+  notificationThirdGift: 1000
+  scoreForBronze: 2147483644
+  scoreForSilver: 2147483644
+  scoreForGold: 2147483644
+  bronzeCoins: 0
+  silverCoins: 0
+  goldCoins: 0
+  noMedalVideoReward: 0

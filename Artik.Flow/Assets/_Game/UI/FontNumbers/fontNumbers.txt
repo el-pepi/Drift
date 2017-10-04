@@ -1,0 +1,15 @@
+info face=fontNumbers size=72 bold=0 italic=0 charset= unicode= stretchH=100 smooth=1 aa=1 padding=10,10,10,10 spacing=0,0 outline=0
+common lineHeight=82 base=47 scaleW=160 scaleH=492 pages=1 packed=0
+page id=0 file="fontNumbers.png"
+chars count=10
+char id=48 x=10 y=10 width=66 height=86 xoffset=-11 yoffset=1 xadvance=43 page=0 chnl=15
+char id=49 x=10 y=106 width=54 height=85 xoffset=-5 yoffset=2 xadvance=43 page=0 chnl=15
+char id=50 x=10 y=201 width=62 height=87 xoffset=-10 yoffset=0 xadvance=43 page=0 chnl=15
+char id=51 x=10 y=298 width=61 height=87 xoffset=-6 yoffset=0 xadvance=43 page=0 chnl=15
+char id=52 x=74 y=106 width=61 height=83 xoffset=-8 yoffset=3 xadvance=43 page=0 chnl=15
+char id=53 x=10 y=395 width=62 height=87 xoffset=-8 yoffset=0 xadvance=43 page=0 chnl=15
+char id=54 x=86 y=10 width=64 height=86 xoffset=-8 yoffset=1 xadvance=43 page=0 chnl=15
+char id=55 x=81 y=298 width=60 height=81 xoffset=-8 yoffset=0 xadvance=43 page=0 chnl=15
+char id=56 x=82 y=199 width=64 height=87 xoffset=-10 yoffset=0 xadvance=43 page=0 chnl=15
+char id=57 x=82 y=389 width=63 height=86 xoffset=-7 yoffset=1 xadvance=43 page=0 chnl=15
+char id=32 x=0 y=0 width=0 height=0 xoffset=-7 yoffset=1 xadvance=43 page=0 chnl=15

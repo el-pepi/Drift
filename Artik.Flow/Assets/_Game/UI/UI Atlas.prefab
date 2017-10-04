@@ -1,0 +1,631 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000010915047176}
+  m_IsPrefabParent: 1
+--- !u!1 &1000010915047176
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000012691179698}
+  - component: {fileID: 114000011359386720}
+  m_Layer: 0
+  m_Name: UI Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000012691179698
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010915047176}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000011359386720
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010915047176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: c830d78ec3dae6344b904d0133badbe1, type: 2}
+  mSprites:
+  - name: 0
+    x: 513
+    y: 2888
+    width: 988
+    height: 240
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 12
+    paddingTop: 27
+    paddingBottom: 24
+  - name: 1
+    x: 0
+    y: 2616
+    width: 988
+    height: 240
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 12
+    paddingTop: 27
+    paddingBottom: 24
+  - name: 2
+    x: 989
+    y: 2616
+    width: 988
+    height: 240
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 12
+    paddingTop: 27
+    paddingBottom: 24
+  - name: 3
+    x: 513
+    y: 3129
+    width: 989
+    height: 240
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 11
+    paddingTop: 27
+    paddingBottom: 24
+  - name: 4
+    x: 1028
+    y: 3856
+    width: 990
+    height: 240
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 10
+    paddingTop: 27
+    paddingBottom: 24
+  - name: barra boss distance
+    x: 1028
+    y: 3628
+    width: 293
+    height: 10
+    borderLeft: 10
+    borderRight: 10
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: barra boss distance fill
+    x: 1404
+    y: 3646
+    width: 324
+    height: 44
+    borderLeft: 26
+    borderRight: 26
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 0
+  - name: barra energia
+    x: 335
+    y: 2489
+    width: 600
+    height: 126
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 1
+  - name: barra energia distance indicator
+    x: 1983
+    y: 3577
+    width: 31
+    height: 46
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 12
+    paddingTop: 12
+    paddingBottom: 12
+  - name: barra energia fill
+    x: 1375
+    y: 3372
+    width: 84
+    height: 78
+    borderLeft: 40
+    borderRight: 40
+    borderTop: 30
+    borderBottom: 30
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 1
+    paddingBottom: 1
+  - name: BossZoneIndicator
+    x: 1503
+    y: 2949
+    width: 498
+    height: 420
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 7
+    paddingRight: 7
+    paddingTop: 46
+    paddingBottom: 46
+  - name: Damage
+    x: 0
+    y: 2857
+    width: 512
+    height: 512
+    borderLeft: 100
+    borderRight: 100
+    borderTop: 100
+    borderBottom: 100
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: EnergyGlow
+    x: 335
+    y: 2232
+    width: 256
+    height: 256
+    borderLeft: 100
+    borderRight: 100
+    borderTop: 100
+    borderBottom: 100
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: font
+    x: 0
+    y: 3624
+    width: 1027
+    height: 472
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 16
+    paddingTop: 2
+    paddingBottom: 18
+  - name: LifeContainerv2
+    x: 1749
+    y: 3655
+    width: 282
+    height: 200
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 18
+    paddingTop: 0
+    paddingBottom: 0
+  - name: LifeContainerv3
+    x: 1081
+    y: 3451
+    width: 481
+    height: 172
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 85
+    borderBottom: 85
+    paddingLeft: 15
+    paddingRight: 16
+    paddingTop: 0
+    paddingBottom: 0
+  - name: LifeHeartOFF
+    x: 1563
+    y: 3388
+    width: 112
+    height: 87
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 30
+    paddingRight: 30
+    paddingTop: 26
+    paddingBottom: 26
+  - name: LifeHeartON
+    x: 1328
+    y: 2396
+    width: 166
+    height: 139
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 0
+    paddingBottom: 0
+  - name: mano_tuto
+    x: 936
+    y: 2201
+    width: 196
+    height: 218
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 11
+    paddingTop: 0
+    paddingBottom: 1
+  - name: mano_tuto01
+    x: 1133
+    y: 2232
+    width: 187
+    height: 187
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: NRG_BarBG
+    x: 592
+    y: 2319
+    width: 292
+    height: 169
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 4
+    paddingTop: 2
+    paddingBottom: 2
+  - name: NRG_BarFILLv2
+    x: 592
+    y: 2201
+    width: 242
+    height: 117
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 29
+    paddingRight: 29
+    paddingTop: 4
+    paddingBottom: 0
+  - name: popup_window
+    x: 0
+    y: 2171
+    width: 334
+    height: 444
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 11
+    paddingRight: 23
+    paddingTop: 7
+    paddingBottom: 6
+  - name: PowerUpDMG
+    x: 1624
+    y: 2419
+    width: 118
+    height: 116
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 2
+    paddingBottom: 2
+  - name: PowerUpNRG
+    x: 835
+    y: 2212
+    width: 88
+    height: 106
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 16
+    paddingRight: 16
+    paddingTop: 7
+    paddingBottom: 7
+  - name: PowerUpSHD
+    x: 1624
+    y: 2308
+    width: 114
+    height: 110
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 5
+    paddingBottom: 5
+  - name: PowerUpSHD 1
+    x: 1676
+    y: 3383
+    width: 92
+    height: 92
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 4
+    paddingTop: 4
+    paddingBottom: 4
+  - name: push_mano_tuto
+    x: 1328
+    y: 2262
+    width: 133
+    height: 133
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 4
+    paddingTop: 1
+    paddingBottom: 6
+  - name: Sombrita
+    x: 1495
+    y: 2407
+    width: 128
+    height: 128
+    borderLeft: 14
+    borderRight: 14
+    borderTop: 14
+    borderBottom: 14
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tuto_bar
+    x: 1028
+    y: 3691
+    width: 720
+    height: 164
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 17
+    paddingBottom: 25
+  - name: UI_BossDistance_Meter
+    x: 1028
+    y: 3639
+    width: 375
+    height: 51
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 37
+    paddingRight: 28
+    paddingTop: 11
+    paddingBottom: 11
+  - name: UI_BossDistance_Meter_Bar
+    x: 2019
+    y: 4045
+    width: 26
+    height: 51
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 4
+    paddingBottom: 5
+  - name: UI_EnergyBar
+    x: 1081
+    y: 3374
+    width: 130
+    height: 76
+    borderLeft: 50
+    borderRight: 60
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 36
+    paddingRight: 10
+    paddingTop: 12
+    paddingBottom: 12
+  - name: UI_EnergyBarHolder
+    x: 936
+    y: 2420
+    width: 391
+    height: 115
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 4
+    paddingTop: 8
+    paddingBottom: 10
+  - name: UI_EnergyIcon
+    x: 1495
+    y: 2279
+    width: 109
+    height: 127
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 12
+    paddingTop: 3
+    paddingBottom: 3
+  - name: UI_Gems_Label
+    x: 1769
+    y: 3426
+    width: 133
+    height: 49
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 16
+    paddingRight: 16
+    paddingTop: 1
+    paddingBottom: 0
+  - name: UI_HighScore_Label
+    x: 1212
+    y: 3409
+    width: 162
+    height: 41
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 2
+    paddingTop: 5
+    paddingBottom: 4
+  - name: UI_mainPanel
+    x: 0
+    y: 3370
+    width: 1080
+    height: 253
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UI_Panel_BossDistanceHolder
+    x: 1212
+    y: 3376
+    width: 136
+    height: 32
+    borderLeft: 38
+    borderRight: 49
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 14
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 3
+  - name: UI_Panel_Curve_Seamless
+    x: 1460
+    y: 3386
+    width: 85
+    height: 64
+    borderLeft: 60
+    borderRight: 5
+    borderTop: 10
+    borderBottom: 40
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 21
+  - name: UI_Panel_Lower
+    x: 1563
+    y: 3476
+    width: 419
+    height: 147
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UI_Panel_NRG
+    x: 936
+    y: 2536
+    width: 888
+    height: 79
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 96
+    paddingRight: 96
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UI_Panel_Straight_Seamless
+    x: 1903
+    y: 3411
+    width: 85
+    height: 64
+    borderLeft: 30
+    borderRight: 30
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: white
+    x: 2019
+    y: 4040
+    width: 4
+    height: 4
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 1
+    borderBottom: 1
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 7b6a777cda6f38c4aa3f292f2175b387
+timeCreated: 1488913212
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: PhosphateSolid
+  fontNames:
+  - PhosphateSolid
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

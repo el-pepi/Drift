@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58d9fe96cc36336409805933bd9c70e6, type: 3}
+  m_Name: Car 20
+  m_EditorClassIdentifier: 
+  id: 19
+  internalName: Tier_2/Tier 2-9
+  displayName: 
+  price: 150
+  menuTexture: {fileID: 2800000, guid: 57d3a42494424ed4884bd60e8e85b614, type: 3}
+  deadTexture: {fileID: 0}
+  promoStartDay: 0
+  promoStartMonth: 0
+  promoDaysLength: 0
+  unlockThreshold: 0
+  carPrefabName: Tier_2/Tier 2-9
+  shopCarResource: ShopCar 20
+  styleTexture: {fileID: 2800000, guid: ffa9eef5be91f53478f4cf3902fc7284, type: 3}
+  defenseTexture: {fileID: 2800000, guid: 7fd4635f507119e4893a3ecb89b8f42c, type: 3}
+  weaponTexture: {fileID: 2800000, guid: b7aca975a0a71264fb76aa5c7183a883, type: 3}
+  damageShopBar: 5
+  healthShopBar: 6
+  weaponsIconsActive: 0000000001000000
+  carName: Party Crasher
+  descriptionKey: 
+  tierString: Drift.Tier2
+  iapProduct: {fileID: 11400000, guid: 5f57e9ccdb9f500418b6497deda11acf, type: 2}

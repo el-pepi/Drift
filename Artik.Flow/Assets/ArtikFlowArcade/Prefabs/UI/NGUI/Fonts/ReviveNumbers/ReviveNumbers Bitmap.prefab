@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000010772130216}
+  m_IsPrefabParent: 1
+--- !u!1 &1000010772130216
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000010200365564}
+  - 114: {fileID: 114000014097802768}
+  m_Layer: 0
+  m_Name: ReviveNumbers Bitmap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000010200365564
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010772130216}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114000014097802768
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010772130216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b4eb3a400afab046abb8471a9d746d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mMat: {fileID: 2100000, guid: 7af6c85e23802f24cadd44679eb5d3fb, type: 2}
+  mUVRect:
+    serializedVersion: 2
+    x: 0.5048828
+    y: 0
+    width: 0.25
+    height: 0.25
+  mFont:
+    mSize: 100
+    mBase: 0
+    mWidth: 256
+    mHeight: 256
+    mSpriteName: ReviveNumbers
+    mSaved:
+    - index: 32
+      x: 0
+      y: 34
+      width: 0
+      height: -34
+      offsetX: 0
+      offsetY: 34
+      advance: 19
+      channel: 15
+      kerning: 
+    - index: 48
+      x: 0
+      y: 109
+      width: 54
+      height: 74
+      offsetX: 2
+      offsetY: 13
+      advance: 58
+      channel: 15
+      kerning: 
+    - index: 49
+      x: 158
+      y: 108
+      width: 46
+      height: 73
+      offsetX: 8
+      offsetY: 13
+      advance: 58
+      channel: 15
+      kerning: 
+    - index: 50
+      x: 57
+      y: 108
+      width: 50
+      height: 73
+      offsetX: 4
+      offsetY: 13
+      advance: 58
+      channel: 15
+      kerning: 
+    - index: 51
+      x: 57
+      y: 182
+      width: 51
+      height: 74
+      offsetX: 4
+      offsetY: 13
+      advance: 58
+      channel: 15
+      kerning: 
+    - index: 52
+      x: 0
+      y: 184
+      width: 56
+      height: 72
+      offsetX: 1
+      offsetY: 14
+      advance: 58
+      channel: 15
+      kerning: 
+    - index: 53
+      x: 108
+      y: 108
+      width: 49
+      height: 73
+      offsetX: 3
+      offsetY: 14
+      advance: 58
+      channel: 15
+      kerning: 
+    - index: 54
+      x: 109
+      y: 183
+      width: 51
+      height: 73
+      offsetX: 4
+      offsetY: 14
+      advance: 58
+      channel: 15
+      kerning: 
+    - index: 55
+      x: 161
+      y: 184
+      width: 51
+      height: 72
+      offsetX: 4
+      offsetY: 14
+      advance: 58
+      channel: 15
+      kerning: 
+    - index: 56
+      x: 0
+      y: 34
+      width: 52
+      height: 74
+      offsetX: 3
+      offsetY: 13
+      advance: 58
+      channel: 15
+      kerning: 
+    - index: 57
+      x: 57
+      y: 34
+      width: 50
+      height: 73
+      offsetX: 6
+      offsetY: 13
+      advance: 58
+      channel: 15
+      kerning: 
+  mAtlas: {fileID: 11485298, guid: 07b170ba8f636cc4786f072819a75e3f, type: 2}
+  mReplacement: {fileID: 0}
+  mSymbols: []
+  mDynamicFont: {fileID: 0}
+  mDynamicFontSize: 16
+  mDynamicFontStyle: 0

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84e4f56657d75fb49b21782ff9d1952b, type: 3}
+  m_Name: black
+  m_EditorClassIdentifier: 
+  id: 0
+  internalName: black
+  displayName: 
+  price: 100
+  menuTexture: {fileID: 2800000, guid: 2bf466062371c91418deebafd9e10bd8, type: 3}
+  deadTexture: {fileID: 2800000, guid: 162d2d79486064645a058cc7801f08da, type: 3}
+  promoStartDay: 0
+  promoStartMonth: 0
+  promoDaysLength: 0
+  unlockThreshold: 0
+  visualName: Black
+  canBeRandomBuy: 1
+  characterPrefab: {fileID: 139752, guid: bad4b0e401021f647a9df69fe957e75c, type: 2}

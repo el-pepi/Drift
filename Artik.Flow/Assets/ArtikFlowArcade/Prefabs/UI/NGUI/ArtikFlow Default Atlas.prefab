@@ -1,0 +1,1045 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &124812
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 458360}
+  - component: {fileID: 11432532}
+  m_Layer: 0
+  m_Name: ArtikFlow Default Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &458360
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124812}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11432532
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 8887b7f6031b49447b4258ef27d4873f, type: 2}
+  mSprites:
+  - name: 50Off
+    x: 0
+    y: 179
+    width: 289
+    height: 291
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 2
+    paddingTop: 0
+    paddingBottom: 0
+  - name: buttonShareFacebook
+    x: 477
+    y: 393
+    width: 256
+    height: 254
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 2
+  - name: buttonShareTwitter
+    x: 477
+    y: 648
+    width: 256
+    height: 256
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ExtraShadow
+    x: 1413
+    y: 1489
+    width: 97
+    height: 14
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GemsChest
+    x: 0
+    y: 471
+    width: 331
+    height: 262
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: InfoButton
+    x: 1943
+    y: 1057
+    width: 102
+    height: 102
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 2
+  - name: IngameShopCurrency1
+    x: 174
+    y: 4
+    width: 59
+    height: 52
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 6
+    paddingTop: 9
+    paddingBottom: 9
+  - name: IngameShopCurrency2
+    x: 1965
+    y: 1532
+    width: 66
+    height: 57
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 4
+    paddingBottom: 9
+  - name: IngameShopCurrency3
+    x: 330
+    y: 745
+    width: 66
+    height: 53
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 9
+    paddingBottom: 8
+  - name: IngameShopCurrency4
+    x: 397
+    y: 742
+    width: 56
+    height: 56
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 7
+    paddingRight: 7
+    paddingTop: 8
+    paddingBottom: 6
+  - name: IngameShopSelectionMarker
+    x: 1330
+    y: 1490
+    width: 62
+    height: 123
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 11
+    paddingRight: 5
+    paddingTop: 8
+    paddingBottom: 9
+  - name: IngameShopSelectionTier
+    x: 1965
+    y: 1471
+    width: 60
+    height: 60
+    borderLeft: 28
+    borderRight: 28
+    borderTop: 28
+    borderBottom: 28
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IngameShopTopContainer
+    x: 1158
+    y: 310
+    width: 4
+    height: 324
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MenuButtonBack
+    x: 1158
+    y: 635
+    width: 147
+    height: 147
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MenuButtonLeader
+    x: 290
+    y: 297
+    width: 173
+    height: 173
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 6
+    paddingTop: 3
+    paddingBottom: 8
+  - name: MenuButtonPurchase
+    x: 0
+    y: 5
+    width: 173
+    height: 173
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 6
+    paddingTop: 3
+    paddingBottom: 8
+  - name: MenuButtonRate
+    x: 290
+    y: 123
+    width: 173
+    height: 173
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 6
+    paddingTop: 3
+    paddingBottom: 8
+  - name: MenuButtonRetry
+    x: 977
+    y: 1187
+    width: 276
+    height: 276
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 1
+  - name: MenuButtonShareLabel
+    x: 1819
+    y: 1181
+    width: 126
+    height: 108
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 2
+    paddingBottom: 2
+  - name: MenuButtonSkinSelect
+    x: 1819
+    y: 1290
+    width: 173
+    height: 173
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 6
+    paddingTop: 3
+    paddingBottom: 8
+  - name: MenuClose
+    x: 330
+    y: 799
+    width: 129
+    height: 129
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MenuEndScoreContainer
+    x: 802
+    y: 1614
+    width: 610
+    height: 434
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 2
+    paddingTop: 5
+    paddingBottom: 4
+  - name: MenuGemCounter
+    x: 1700
+    y: 817
+    width: 110
+    height: 95
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 2
+    paddingTop: 3
+    paddingBottom: 2
+  - name: MenuGemCounterGlow1
+    x: 332
+    y: 605
+    width: 128
+    height: 128
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 21
+    paddingRight: 21
+    paddingTop: 21
+    paddingBottom: 21
+  - name: MenuGemCounterGlow2
+    x: 993
+    y: 286
+    width: 153
+    height: 154
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 9
+    paddingRight: 8
+    paddingTop: 11
+    paddingBottom: 5
+  - name: MenuGemCounterParticle
+    x: 1811
+    y: 823
+    width: 104
+    height: 89
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 6
+    paddingTop: 7
+    paddingBottom: 4
+  - name: MenuGift
+    x: 742
+    y: 51
+    width: 158
+    height: 185
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 6
+    paddingTop: 7
+    paddingBottom: 8
+  - name: MenuGiftGlow
+    x: 0
+    y: 734
+    width: 329
+    height: 330
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 16
+    paddingRight: 5
+    paddingTop: 12
+    paddingBottom: 8
+  - name: MenuInteractMoreGames
+    x: 993
+    y: 913
+    width: 253
+    height: 246
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 11
+    paddingTop: 13
+    paddingBottom: 0
+  - name: MenuInteractVideoReward
+    x: 477
+    y: 905
+    width: 264
+    height: 254
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 5
+    paddingBottom: 0
+  - name: MenuLeaderButtonAchievements
+    x: 742
+    y: 909
+    width: 250
+    height: 250
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 3
+    paddingBottom: 3
+  - name: MenuLeaderButtonLeader
+    x: 742
+    y: 658
+    width: 250
+    height: 250
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 3
+    paddingBottom: 3
+  - name: MenuLeaderContainer
+    x: 174
+    y: 57
+    width: 106
+    height: 121
+    borderLeft: 50
+    borderRight: 50
+    borderTop: 60
+    borderBottom: 60
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 2
+    paddingBottom: 2
+  - name: MenuLike
+    x: 1785
+    y: 1481
+    width: 179
+    height: 179
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 3
+    paddingTop: 0
+    paddingBottom: 5
+  - name: MenuPowerUpsButton
+    x: 1518
+    y: 1235
+    width: 300
+    height: 228
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 6
+    paddingBottom: 6
+  - name: MenuRateContainer
+    x: 332
+    y: 473
+    width: 124
+    height: 131
+    borderLeft: 56
+    borderRight: 56
+    borderTop: 57
+    borderBottom: 69
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 2
+    paddingBottom: 2
+  - name: MenuRateHeartMotivation
+    x: 1511
+    y: 1476
+    width: 34
+    height: 27
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MenuRateStarOFF
+    x: 1584
+    y: 802
+    width: 115
+    height: 110
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MenuRateStarON
+    x: 1886
+    y: 919
+    width: 115
+    height: 110
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MenuRateStarsHolder
+    x: 1946
+    y: 1190
+    width: 98
+    height: 99
+    borderLeft: 42
+    borderRight: 54
+    borderTop: 45
+    borderBottom: 53
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MenuRateSubmitButton
+    x: 802
+    y: 1469
+    width: 360
+    height: 144
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MenuReviveCoins
+    x: 993
+    y: 783
+    width: 323
+    height: 129
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 9
+    paddingRight: 11
+    paddingTop: 1
+    paddingBottom: 7
+  - name: MenuReviveContainer
+    x: 0
+    y: 1464
+    width: 801
+    height: 584
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 0
+    paddingTop: 7
+    paddingBottom: 21
+  - name: MenuReviveTimerCountdown
+    x: 477
+    y: 140
+    width: 252
+    height: 252
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 1
+  - name: MenuReviveTimerFill
+    x: 1254
+    y: 1200
+    width: 263
+    height: 263
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 7
+    paddingRight: 16
+    paddingTop: 7
+    paddingBottom: 16
+  - name: MenuReviveVideoGreen
+    x: 1619
+    y: 1030
+    width: 323
+    height: 129
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 9
+    paddingRight: 11
+    paddingTop: 1
+    paddingBottom: 7
+  - name: MenuShopAlert
+    x: 1965
+    y: 1590
+    width: 80
+    height: 70
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 5
+    paddingBottom: 5
+  - name: MenuShopAlertGlow
+    x: 742
+    y: 415
+    width: 241
+    height: 242
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 16
+    paddingRight: 13
+    paddingTop: 17
+    paddingBottom: 11
+  - name: MenuSocialShareButton
+    x: 1247
+    y: 1003
+    width: 371
+    height: 156
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 4
+    paddingTop: 4
+    paddingBottom: 5
+  - name: MenuToggleRecIdle
+    x: 477
+    y: 23
+    width: 116
+    height: 116
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MenuToggleRecON
+    x: 1926
+    y: 1674
+    width: 116
+    height: 116
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MenuToggleRecPlay
+    x: 594
+    y: 23
+    width: 116
+    height: 116
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MenuToggleSoundOFF
+    x: 1926
+    y: 1791
+    width: 112
+    height: 128
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MenuToggleSoundON
+    x: 1926
+    y: 1920
+    width: 112
+    height: 128
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: pixel
+    x: 1393
+    y: 1605
+    width: 8
+    height: 8
+    borderLeft: 2
+    borderRight: 2
+    borderTop: 2
+    borderBottom: 2
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PowerUpInfoContainer
+    x: 330
+    y: 929
+    width: 126
+    height: 135
+    borderLeft: 60
+    borderRight: 60
+    borderTop: 56
+    borderBottom: 75
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PowerUpPurchaseWithGems
+    x: 1317
+    y: 806
+    width: 266
+    height: 106
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PowerUpPurchaseWithVideo
+    x: 1619
+    y: 923
+    width: 266
+    height: 106
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PurchaseButton
+    x: 1413
+    y: 1504
+    width: 371
+    height: 156
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 15
+    paddingRight: 14
+    paddingTop: 0
+    paddingBottom: 5
+  - name: PurchaseShopContainer2
+    x: 1247
+    y: 921
+    width: 312
+    height: 81
+    borderLeft: 37
+    borderRight: 271
+    borderTop: 37
+    borderBottom: 46
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 3
+    paddingBottom: 4
+  - name: PurchaseShopContainer3
+    x: 290
+    y: 4
+    width: 125
+    height: 118
+    borderLeft: 42
+    borderRight: 42
+    borderTop: 42
+    borderBottom: 42
+    paddingLeft: 2
+    paddingRight: 1
+    paddingTop: 6
+    paddingBottom: 4
+  - name: PurchaseShopIcon1NoAds
+    x: 993
+    y: 614
+    width: 164
+    height: 168
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 10
+    paddingTop: 8
+    paddingBottom: 8
+  - name: PurchaseShopIcon2AllChars
+    x: 993
+    y: 441
+    width: 160
+    height: 172
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 12
+    paddingTop: 7
+    paddingBottom: 5
+  - name: PurchaseShopIcon3Double
+    x: 1163
+    y: 1464
+    width: 166
+    height: 149
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 9
+    paddingRight: 9
+    paddingTop: 21
+    paddingBottom: 14
+  - name: PurchaseShopIcon4Restore
+    x: 993
+    y: 137
+    width: 150
+    height: 148
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 20
+    paddingRight: 14
+    paddingTop: 20
+    paddingBottom: 16
+  - name: PurchaseShopIcon5GemPack
+    x: 742
+    y: 237
+    width: 166
+    height: 177
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 9
+    paddingRight: 9
+    paddingTop: 3
+    paddingBottom: 4
+  - name: RewardClaimGems
+    x: 0
+    y: 1065
+    width: 476
+    height: 398
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 17
+    paddingRight: 17
+    paddingTop: 6
+    paddingBottom: 6
+  - name: RewardClaimPresentBox
+    x: 477
+    y: 1160
+    width: 499
+    height: 303
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 3
+    paddingBottom: 4
+  - name: RewardClaimPresentTop
+    x: 1413
+    y: 1661
+    width: 512
+    height: 387
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 4
+    paddingTop: 2
+    paddingBottom: 1
+  - name: Title_Ribbon
+    x: 1546
+    y: 1476
+    width: 30
+    height: 27
+    borderLeft: 1
+    borderRight: 27
+    borderTop: 1
+    borderBottom: 24
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mPixelSize: 0.66666
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: mSprites.Array.data[38].borderLeft
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: mSprites.Array.data[38].borderRight
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: mSprites.Array.data[38].borderTop
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: mSprites.Array.data[38].borderBottom
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: mSprites.Array.data[9].borderLeft
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: mSprites.Array.data[9].borderRight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: mSprites.Array.data[41].borderLeft
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: mSprites.Array.data[41].borderRight
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: mSprites.Array.data[41].borderBottom
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: mSprites.Array.data[41].borderTop
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: mSprites.Array.data[29].borderLeft
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: mSprites.Array.data[29].borderRight
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: mSprites.Array.data[29].borderBottom
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: mSprites.Array.data[29].borderTop
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: mPixelSize
+      value: 0.66666
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: mSprites.Array.data[61].borderLeft
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: mSprites.Array.data[61].borderRight
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: mSprites.Array.data[61].borderBottom
+      value: 53
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: mSprites.Array.data[61].borderTop
+      value: 40
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 124812}
+  m_IsPrefabParent: 1

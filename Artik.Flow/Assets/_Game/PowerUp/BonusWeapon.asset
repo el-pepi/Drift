@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9ec4e010537ab44dbec4bf0218a73e9, type: 3}
+  m_Name: BonusWeapon
+  m_EditorClassIdentifier: 
+  internalId: Bonus Weapon
+  texture: {fileID: 2800000, guid: eafe5fd74ae35b94bb71c42332edd1d3, type: 3}
+  titleTag: Drift.PowerupAttackTitle
+  descriptionTag: Drift.PowerupAttackDesc
+  option1Count: 1
+  option1Price: 20
+  option2Count: 0
+  option2Price: 0
+  videoCount: 1
+  menuTexture: {fileID: 2800000, guid: aa7fdd90c482b1048833f33f3db3adf5, type: 3}

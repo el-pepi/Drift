@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 34
+  m_Shader: {fileID: 4800000, guid: 6dadf9a1d4850fc44ad448f7698aa228, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _Cube
+      second:
+        m_Texture: {fileID: 8900000, guid: b44f7d409f6bd9b4caefb0e1b2451bcf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Emission
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 49b6755a69ed3db4fb6275fb22906732, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ReflexTex
+      second:
+        m_Texture: {fileID: 2800000, guid: d6011d0bb11d1224bac90eb71c71337d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ShadingTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 20538badb72fbda4f9e78f13048be27b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _MountainDensity
+      second: 0
+    - first:
+        name: _RimSize
+      second: 0.652
+    m_Colors:
+    - first:
+        name: _RimColor
+      second: {r: 0.71323526, g: 0.9169371, b: 1, a: 1}

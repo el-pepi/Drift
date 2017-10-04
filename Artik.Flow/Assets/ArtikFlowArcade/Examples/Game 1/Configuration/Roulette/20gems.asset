@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e44a39ed03962774a90a24d576556328, type: 3}
+  m_Name: 20gems
+  m_EditorClassIdentifier: 
+  itemTexture: {fileID: 2800000, guid: 20296999059864c40baa8435df8ebe58, type: 3}
+  itemCount: 20
+  itemText: 20

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9ec4e010537ab44dbec4bf0218a73e9, type: 3}
+  m_Name: BonusHealth
+  m_EditorClassIdentifier: 
+  internalId: Bonus Health
+  texture: {fileID: 2800000, guid: 689c7be7ed3b3fa40ba804612b09d246, type: 3}
+  titleTag: Drift.PowerupDefenseTitle
+  descriptionTag: Drift.PowerupDefenseDesc
+  option1Count: 1
+  option1Price: 10
+  option2Count: 0
+  option2Price: 0
+  videoCount: 1
+  menuTexture: {fileID: 2800000, guid: 14dd769bbe719d84eb30690fa5db00c8, type: 3}

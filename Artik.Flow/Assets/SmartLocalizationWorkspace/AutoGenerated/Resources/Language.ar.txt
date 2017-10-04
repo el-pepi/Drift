@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root><!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="Drift.Defense" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Drift.Equipped" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Drift.GameSetup" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Drift.IAP.Before" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Drift.IAP.BestValue" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Drift.IAP.CarNotice" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Drift.IAP.For" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Drift.IAP.Hours" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Drift.IAP.HurryUp" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Drift.IAP.LegendaryVehicle" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Drift.IAP.NeonPack" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Drift.IAP.Now" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Drift.IAP.OfferEnds" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Drift.IAP.Only" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Drift.IAP.Popular" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Drift.IAP.RemoveAdsNotice" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Drift.IAP.StarterPack" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Drift.IAP.StarterPackGems" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Drift.LevelSelect" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Drift.LevelSelectDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Drift.PowerupAttackDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Drift.PowerupAttackTitle" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Drift.PowerupDefenseDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Drift.PowerupDefenseTitle" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Drift.PowerupEnergyDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Drift.PowerupEnergyTitle" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Drift.Roulette.Title" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Drift.ShopDesc.BlueScorpion" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Drift.ShopDesc.GreenSpider" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Drift.ShopDesc.OrangeBomber" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Drift.ShopDesc.PurpleDragon" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Drift.ShopDesc.RedDoom" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Drift.ShopDesc.YellowPiranha" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Drift.Tier1" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Drift.Tier2" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Drift.Tier3" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Drift.Unavailable" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Drift.Weapons" xml:space="preserve">
+		<value />
+	</data>
+	<data name="GameplayScreen.Best" xml:space="preserve">
+		<value>أفضل</value>
+	</data>
+	<data name="HiddenLogo.Join" xml:space="preserve">
+		<value>ينضم!</value>
+	</data>
+	<data name="IAP.Duplicate" xml:space="preserve">
+		<value>بيك اب جوهرة مزدوج</value>
+	</data>
+	<data name="IAP.Gems" xml:space="preserve">
+		<value>حزمة % الأحجار الكريمة</value>
+	</data>
+	<data name="IAP.NeedGems" xml:space="preserve">
+		<value>تحتاج الأحجار الكريمة؟</value>
+	</data>
+	<data name="IAP.Notice" xml:space="preserve">
+		<value>جميع الآثار شراء دائمة</value>
+	</data>
+	<data name="IAP.PackLine1" xml:space="preserve">
+		<value>ازالة الاعلانات</value>
+	</data>
+	<data name="IAP.PackLine2" xml:space="preserve">
+		<value>كل الحروف</value>
+	</data>
+	<data name="IAP.PackLine3" xml:space="preserve">
+		<value>بيك اب جوهرة مزدوج</value>
+	</data>
+	<data name="IAP.RemoveAds" xml:space="preserve">
+		<value>ازالة الاعلانات</value>
+	</data>
+	<data name="IAP.Restore" xml:space="preserve">
+		<value>استعادة المشتريات</value>
+	</data>
+	<data name="IAP.SuperPackPromotion" xml:space="preserve">
+		<value>حزمة رهيبة</value>
+	</data>
+	<data name="IAP.UnlockAllCharacters" xml:space="preserve">
+		<value>إفتح كل الحروف</value>
+	</data>
+	<data name="LostScreen.BestScore" xml:space="preserve">
+		<value>أفضل نتيجة</value>
+	</data>
+	<data name="LostScreen.New" xml:space="preserve">
+		<value>جديد!</value>
+	</data>
+	<data name="LostScreen.Score" xml:space="preserve">
+		<value>أحرز هدفاً</value>
+	</data>
+	<data name="Powerups.Title" xml:space="preserve">
+		<value>زادت الطاقة.</value>
+	</data>
+	<data name="PushNotification.FreeGift" xml:space="preserve">
+		<value>هدية مجانية ينتظر!</value>
+	</data>
+	<data name="Rate.RateAsk1" xml:space="preserve">
+		<value>كيف تقيم؟</value>
+	</data>
+	<data name="Rate.RateAsk3" xml:space="preserve">
+		<value>ردود الفعل الخاص بك هو حقا
+ المهم بالنسبة لنا!</value>
+	</data>
+	<data name="Rate.Submit" xml:space="preserve">
+		<value>إرسال</value>
+	</data>
+	<data name="Revive.ReviveAsk" xml:space="preserve">
+		<value>استمر؟</value>
+	</data>
+	<data name="Revive.Watch" xml:space="preserve">
+		<value>نظرة</value>
+	</data>
+	<data name="Reward.Coins" xml:space="preserve">
+		<value>الجواهر٪!</value>
+	</data>
+	<data name="Reward.Earned" xml:space="preserve">
+		<value>كنت قد كسبت</value>
+	</data>
+	<data name="Reward.TapToClaim" xml:space="preserve">
+		<value>ضغط على المطالبة!</value>
+	</data>
+	<data name="Screenshot.BeatMyScore" xml:space="preserve">
+		<value>تغلب على درجة بلدي!</value>
+	</data>
+	<data name="Shop.Free" xml:space="preserve">
+		<value>حر</value>
+	</data>
+	<data name="Shop.Shop" xml:space="preserve">
+		<value>متجر</value>
+	</data>
+	<data name="StartScreen.BestScore" xml:space="preserve">
+		<value>أفضل نتيجة</value>
+	</data>
+	<data name="StartScreen.FreeGift" xml:space="preserve">
+		<value>حر
+ هدية!</value>
+	</data>
+	<data name="StartScreen.TapToPlay" xml:space="preserve">
+		<value>انقر للعب</value>
+	</data>
+	<data name="StartScreen.TimesPlayed" xml:space="preserve">
+		<value>عدد مرات اللعب</value>
+	</data>
+	<data name="TryNBuy.BuyIt" xml:space="preserve">
+		<value>شراء الآن والحصول على 2500 الأحجار الكريمة!</value>
+	</data>
+	<data name="TryNBuy.FullGame" xml:space="preserve">
+		<value>لعبة كاملة</value>
+	</data>
+	<data name="TryNBuy.ThankYou" xml:space="preserve">
+		<value>شكرا لكم لمحاولة</value>
+	</data>
+	<data name="Drift.IAP.Purchased" xml:space="preserve">
+		<value />
+	</data>
+</root>

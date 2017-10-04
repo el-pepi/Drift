@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58d9fe96cc36336409805933bd9c70e6, type: 3}
+  m_Name: Car 05
+  m_EditorClassIdentifier: 
+  id: 4
+  internalName: Tier_1/Tier 1-5
+  displayName: 
+  price: 150
+  menuTexture: {fileID: 2800000, guid: c0184f9b54a8e534d92c1665758083f2, type: 3}
+  deadTexture: {fileID: 0}
+  promoStartDay: 0
+  promoStartMonth: 0
+  promoDaysLength: 0
+  unlockThreshold: 0
+  carPrefabName: Tier_1/Tier 1-5
+  shopCarResource: ShopCar 05
+  styleTexture: {fileID: 2800000, guid: ffa9eef5be91f53478f4cf3902fc7284, type: 3}
+  defenseTexture: {fileID: 2800000, guid: 7fd4635f507119e4893a3ecb89b8f42c, type: 3}
+  weaponTexture: {fileID: 2800000, guid: a5da162533d3c884ca1338723fc1f904, type: 3}
+  damageShopBar: 3
+  healthShopBar: 4
+  weaponsIconsActive: 00000000
+  carName: Bad Boy
+  descriptionKey: 
+  tierString: Drift.Tier1
+  iapProduct: {fileID: 11400000, guid: 5f57e9ccdb9f500418b6497deda11acf, type: 2}

@@ -1,0 +1,112 @@
+fileFormatVersion: 2
+guid: 6448f61735e382a41a6642357085fa10
+timeCreated: 1479925877
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: "20w 25R 90\xB0"
+    100002: "20W 30R 90\xB0"
+    100004: "20W 35R 90\xB0"
+    100006: "20W 40R 90\xB0"
+    100008: 40L
+    100010: //RootNode
+    100012: Classic_American_Car
+    100014: Transition 20 40
+    400000: "20w 25R 90\xB0"
+    400002: "20W 30R 90\xB0"
+    400004: "20W 35R 90\xB0"
+    400006: "20W 40R 90\xB0"
+    400008: 40L
+    400010: //RootNode
+    400012: Classic_American_Car
+    400014: Transition 20 40
+    2300000: "20w 25R 90\xB0"
+    2300002: "20W 30R 90\xB0"
+    2300004: "20W 35R 90\xB0"
+    2300006: "20W 40R 90\xB0"
+    2300008: 40L
+    2300010: Transition 20 40
+    3300000: "20w 25R 90\xB0"
+    3300002: "20W 30R 90\xB0"
+    3300004: "20W 35R 90\xB0"
+    3300006: "20W 40R 90\xB0"
+    3300008: 40L
+    3300010: Transition 20 40
+    4300000: "20w 25R 90\xB0"
+    4300002: "20W 30R 90\xB0"
+    4300004: "20W 40R 90\xB0"
+    4300006: "20W 35R 90\xB0"
+    4300008: 40L
+    4300010: Transition 20 40
+    7400000: Take 001
+    9500000: //RootNode
+    11400000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 2
+    tangentImportMode: 2
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58d9fe96cc36336409805933bd9c70e6, type: 3}
+  m_Name: Car 06
+  m_EditorClassIdentifier: 
+  id: 5
+  internalName: Tier_1/Tier 1-6
+  displayName: 
+  price: 150
+  menuTexture: {fileID: 2800000, guid: 16276cd34b20be64cbf69149e101a47b, type: 3}
+  deadTexture: {fileID: 0}
+  promoStartDay: 0
+  promoStartMonth: 0
+  promoDaysLength: 0
+  unlockThreshold: 0
+  carPrefabName: Tier_1/Tier 1-6
+  shopCarResource: ShopCar 06
+  styleTexture: {fileID: 2800000, guid: ffa9eef5be91f53478f4cf3902fc7284, type: 3}
+  defenseTexture: {fileID: 2800000, guid: 07bf97a7378514e40ab677e3bf203103, type: 3}
+  weaponTexture: {fileID: 2800000, guid: 80706c75a57ff44429ee6477e47896c5, type: 3}
+  damageShopBar: 4
+  healthShopBar: 2
+  weaponsIconsActive: 03000000
+  carName: Blaster
+  descriptionKey: 
+  tierString: Drift.Tier1
+  iapProduct: {fileID: 11400000, guid: 5f57e9ccdb9f500418b6497deda11acf, type: 2}

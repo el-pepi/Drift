@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58d9fe96cc36336409805933bd9c70e6, type: 3}
+  m_Name: Car 02
+  m_EditorClassIdentifier: 
+  id: 1
+  internalName: Tier_1/Tier 1-2
+  displayName: 
+  price: 150
+  menuTexture: {fileID: 2800000, guid: dd766954ddd162140a119e52f826fdcd, type: 3}
+  deadTexture: {fileID: 0}
+  promoStartDay: 0
+  promoStartMonth: 0
+  promoDaysLength: 0
+  unlockThreshold: 0
+  carPrefabName: Tier_1/Tier 1-2
+  shopCarResource: ShopCar 02
+  styleTexture: {fileID: 2800000, guid: ffa9eef5be91f53478f4cf3902fc7284, type: 3}
+  defenseTexture: {fileID: 2800000, guid: 7fd4635f507119e4893a3ecb89b8f42c, type: 3}
+  weaponTexture: {fileID: 2800000, guid: 604079782d649f543aef6a570ba425a3, type: 3}
+  damageShopBar: 2
+  healthShopBar: 4
+  weaponsIconsActive: 0000000001000000
+  carName: Absinthe
+  descriptionKey: 
+  tierString: Drift.Tier1
+  iapProduct: {fileID: 11400000, guid: 5f57e9ccdb9f500418b6497deda11acf, type: 2}
